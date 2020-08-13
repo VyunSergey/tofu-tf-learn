@@ -9,6 +9,9 @@ libraryDependencies ++= Seq(
   catsEffect,
   catsTaglessCore,
   catsTaglessMacros,
+  circeCore,
+  circeGeneric,
+  circeParser,
   derevoCats,
   derevoCatsTagless,
   tofuCore,
@@ -23,4 +26,3 @@ libraryDependencies ++= Seq(
   compilerPlugin(kindProjector),
   compilerPlugin(betterMonadicFor)
 )
-

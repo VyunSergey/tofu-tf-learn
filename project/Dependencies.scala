@@ -6,6 +6,7 @@ object Dependencies {
     val cats = "2.1.1"
     val catsEffect = "2.1.4"
     val catsTagless = "0.11"
+    val circe = "0.13.0"
     val derevo = "0.11.4"
     val tofu = "0.7.8"
     val trace4cats = "0.3.0"
@@ -18,6 +19,9 @@ object Dependencies {
   val catsEffect = "org.typelevel" %% "cats-effect" % Versions.catsEffect
   val catsTaglessCore = "org.typelevel" %% "cats-tagless-core" % Versions.catsTagless
   val catsTaglessMacros = "org.typelevel" %% "cats-tagless-macros" % Versions.catsTagless
+  val circeCore = "io.circe" %% "circe-core" % Versions.circe
+  val circeGeneric = "io.circe" %% "circe-generic" % Versions.circe
+  val circeParser = "io.circe" %% "circe-parser" % Versions.circe
   val derevoCats = "org.manatki" %% "derevo-cats" % Versions.derevo
   val derevoCatsTagless = "org.manatki" %% "derevo-cats-tagless" % Versions.derevo
   val tofuCore = "ru.tinkoff" %% "tofu-core" % Versions.tofu
