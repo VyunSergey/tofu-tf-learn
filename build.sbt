@@ -22,7 +22,18 @@ libraryDependencies ++= Seq(
   trace4catsCore,
   trace4catsInject,
   trace4catsJaeger,
+  http4sCore,
+  http4sDsl,
+  http4sCirce,
+  http4sClient,
+  http4sServer,
+  http4sBlazeClient,
+  http4sBlazeServer,
   logback,
   compilerPlugin(kindProjector),
   compilerPlugin(betterMonadicFor)
+)
+
+scalacOptions ++= Seq(
+  "-Ymacro-annotations"
 )
